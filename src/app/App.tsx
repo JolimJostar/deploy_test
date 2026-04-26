@@ -18,7 +18,7 @@ export default function App() {
             <AboutSection />
             <CampaignsSection />
             <PricingSection />
-            <CharactersSection />
+            {/* <CharactersSection /> */}
             {/* <SessionsSection /> */}
             <ResourcesSection />
             <UsefulLinksSection />

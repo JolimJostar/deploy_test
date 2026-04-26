@@ -19,7 +19,7 @@ export function Header() {
         { name: 'Обо мне', href: '#about' },
         { name: 'Кампании', href: '#campaigns' },
         { name: 'Цены', href: '#pricing' },
-        { name: 'Персонажи', href: '#characters' },
+        // { name: 'Персонажи', href: '#characters' },
         // { name: 'Сессии', href: '#sessions' },
         { name: 'Файлы', href: '#resources' },
         { name: 'Ресурсы', href: '#links' },

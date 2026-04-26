@@ -2,7 +2,7 @@ import { Dices } from 'lucide-react';
 
 export function Footer() {
     return (
-        <footer className="bg-slate-950 text-gray-400 py-12 px-6 border-t border-amber-900/30">
+        <footer className="bg-slate-900 text-gray-400 py-12 px-6 border-t border-amber-900/30">
             <div className="max-w-6xl mx-auto text-center space-y-4">
                 <div className="flex justify-center">
                     <Dices className="w-8 h-8 text-amber-400" />

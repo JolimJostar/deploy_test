@@ -22,7 +22,7 @@ export function CampaignsSection() {
             level: '1-15 ур.',
             duration: 'Кампания',
             description: 'Темное готическое фентези о поиске надежды.',
-            image: publicImage('unsplash-1745910212356-2932d59557fc.jpg'),
+            image: publicImage('0F779E50-B6D7-4578-8414-452E5941A07F.png'),
         },
         {
             title: 'Мышеловка',
@@ -31,7 +31,7 @@ export function CampaignsSection() {
             status: 'Для новичков',
             description:
                 'Легкая и прямолинейная история о расследовании пропажи жителей.',
-            image: publicImage('unsplash-1634409884980-a30da0b2b010.jpg'),
+            image: publicImage('rat.jpg'),
         },
         {
             title: 'Трудности с гоблинами',
@@ -39,14 +39,7 @@ export function CampaignsSection() {
             duration: 'Ваншот',
             status: 'Для новичков',
             description: 'Идеальное приключение для знакомства с игрой.',
-            image: publicImage('unsplash-1631290235496-b73219233bbf.jpg'),
-        },
-        {
-            title: 'Проклятье Страда',
-            level: '1-15 ур.',
-            duration: 'Кампания',
-            description: 'Темное готическое фентези о поиске надежды.',
-            image: publicImage('unsplash-1745910212356-2932d59557fc.jpg'),
+            image: publicImage('goblins.jpg'),
         },
     ];
 
@@ -80,13 +73,13 @@ export function CampaignsSection() {
                         return (
                             <Card
                                 key={index}
-                                className="bg-slate-900 border-amber-900/30 overflow-hidden group hover:border-amber-700/50 transition-colors"
+                                className="bg-slate-900 border-amber-900/30 overflow-hidden group transition-colors"
                             >
                                 <div className="relative h-48 overflow-hidden">
                                     <ImageWithFallback
                                         src={campaign.image}
                                         alt={campaign.title}
-                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                        className="w-full h-full object-cover transition-transform duration-300"
                                     />
                                     if (campaign.status)
                                     <div className="absolute top-4 right-4">
@@ -97,7 +90,7 @@ export function CampaignsSection() {
                                     <CardTitle className="text-amber-100">
                                         {campaign.title}
                                     </CardTitle>
-                                    <div className="flex justify-between">
+                                    <div className="flex justify-between text-gray-400">
                                         <p>{campaign.duration}</p>
                                         <CardDescription className="text-gray-400">
                                             {campaign.level}

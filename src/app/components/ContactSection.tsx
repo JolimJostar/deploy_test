@@ -10,13 +10,13 @@ import { Button } from './ui/button';
 
 export function ContactSection() {
     return (
-        <section id="contact" className="py-20 px-6 bg-slate-900">
+        <section id="contact" className="py-20 px-6 bg-slate-950">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-4xl md:text-5xl text-center mb-4 text-amber-100">
                     Начни свое приключение
                 </h2>
                 <p className="text-center text-gray-400 mb-12 text-lg">
-                    Готовы взять свое первое задание? Тогда жду Вашего
+                    Готовы взять свой первый квест? Тогда жду Вашего
                     сообщения!
                 </p>
 
