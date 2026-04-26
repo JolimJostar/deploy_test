@@ -1,4 +1,5 @@
 import { Scroll, Dices, Sparkles } from 'lucide-react';
+import { publicImage } from '../lib/publicImage';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Hero() {
@@ -9,7 +10,7 @@ export function Hero() {
         >
             <div className="absolute inset-0 z-0">
                 <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1549056572-75914d5d5fd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkdW5nZW9uJTIwZHJhZ29ucyUyMGZhbnRhc3klMjB0YWJsZXRvcHxlbnwxfHx8fDE3NzMxODE3MzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                    src={publicImage('unsplash-1549056572-75914d5d5fd4.jpg')}
                     alt="D&D Tabletop"
                     className="w-full h-full object-cover"
                 />

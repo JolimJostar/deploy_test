@@ -43,6 +43,7 @@ import {
     SelectValue,
 } from './ui/select';
 import { Label } from './ui/label';
+import { publicImage } from '../lib/publicImage';
 
 export function CharactersSection() {
     const all = 'Все';
@@ -117,7 +118,7 @@ export function CharactersSection() {
             race: Race.Dwarf,
             class: Class.Fighter,
             level: 8,
-            image: 'https://images.unsplash.com/photo-1624382497233-15a185a7c90d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwZHdhcmYlMjBibGFja3NtaXRofGVufDF8fHx8MTc3MzE4MTczNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1624382497233-15a185a7c90d.jpg'),
             description:
                 'A stalwart defender with a heart of gold and an axe of steel.',
         },
@@ -126,7 +127,7 @@ export function CharactersSection() {
             race: Race.Elf,
             class: Class.Ranger,
             level: 7,
-            image: 'https://images.unsplash.com/photo-1631290235496-b73219233bbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwZWxmJTIwYXJjaGVyfGVufDF8fHx8MTc3MzE4MTczNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1631290235496-b73219233bbf.jpg'),
             description: 'Silent as shadow, deadly as moonlight on a blade.',
         },
         {
@@ -134,7 +135,7 @@ export function CharactersSection() {
             race: Race.Human,
             class: Class.Wizard,
             level: 10,
-            image: 'https://images.unsplash.com/photo-1634409884980-a30da0b2b010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwd2l6YXJkJTIwbWFnaWN8ZW58MXx8fHwxNzczMTY5MjIxfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1634409884980-a30da0b2b010.jpg'),
             description:
                 'Master of arcane arts, seeker of forbidden knowledge.',
         },
@@ -143,7 +144,7 @@ export function CharactersSection() {
             race: Race.HalfOrc,
             class: Class.Barbarian,
             level: 6,
-            image: 'https://images.unsplash.com/photo-1765606290905-b9d377ea4d5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwY2hhcmFjdGVyJTIwd2FycmlvcnxlbnwxfHx8fDE3NzMxNjE4OTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1765606290905-b9d377ea4d5e.jpg'),
             description: 'Rage incarnate, a tempest on the battlefield.',
         },
         {
@@ -151,7 +152,7 @@ export function CharactersSection() {
             race: Race.Human,
             class: Class.Cleric,
             level: 9,
-            image: 'https://images.unsplash.com/photo-1589254065878-42c9da997008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwY2xlcmljJTIwcHJpZXN0fGVufDF8fHx8MTc3MzE4MTczNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1589254065878-42c9da997008.jpg'),
             description: 'Bearer of divine light, healer of the wounded.',
         },
         {
@@ -159,7 +160,7 @@ export function CharactersSection() {
             race: Race.Halfling,
             class: Class.Rogue,
             level: 5,
-            image: 'https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwcm9ndWUlMjBhc3Nhc3NpbnxlbnwxfHx8fDE3NzMxODE3MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1518806118471-f28b20a1d79d.jpg'),
             description:
                 'Quick fingers and quicker wit, master of the unexpected.',
         },
@@ -168,7 +169,7 @@ export function CharactersSection() {
             race: Race.Dragonborn,
             class: Class.Sorcerer,
             level: 8,
-            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwc29yY2VyZXIlMjBkcmFnb258ZW58MXx8fHwxNzczMTgxNzM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1507003211169-0a1dd7228f2d.jpg'),
             description:
                 'Lightning courses through her veins, chaos in her eyes.',
         },
@@ -177,7 +178,7 @@ export function CharactersSection() {
             race: Race.Orc,
             class: Class.Fighter,
             level: 7,
-            image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwb3JjJTIwd2FycmlvcnxlbnwxfHx8fDE3NzMxODE3MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1560250097-0b93528c311a.jpg'),
             description:
                 'Unbreakable will, immovable force, protector of the weak.',
         },
@@ -186,7 +187,7 @@ export function CharactersSection() {
             race: Race.Elf,
             class: Class.Druid,
             level: 6,
-            image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwZWxmJTIwZHJ1aWR8ZW58MXx8fHwxNzczMTgxNzM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1544005313-94ddf0286df2.jpg'),
             description: "Nature's voice, guardian of the ancient forests.",
         },
         {
@@ -194,7 +195,7 @@ export function CharactersSection() {
             race: Race.Human,
             class: Class.Paladin,
             level: 9,
-            image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwcGFsYWRpbiUyMGtuaWdodHxlbnwxfHx8fDE3NzMxODE3MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1506794778202-cad84cf45f1d.jpg'),
             description:
                 'Oath-bound warrior, champion of justice and righteousness.',
         },
@@ -203,7 +204,7 @@ export function CharactersSection() {
             race: Race.Tiefling,
             class: Class.Warlock,
             level: 10,
-            image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwdGllZmxpbmclMjB3YXJsb2NrfGVufDF8fHx8MTc3MzE4MTczNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1438761681033-6461ffad8d80.jpg'),
             description: 'Bound by pact, wielder of eldritch power.',
         },
         {
@@ -211,7 +212,7 @@ export function CharactersSection() {
             race: Race.Dwarf,
             class: Class.Barbarian,
             level: 5,
-            image: 'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYW50YXN5JTIwZHdhcmYlMjBiYXJiYXJpYW58ZW58MXx8fHwxNzczMTgxNzM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+            image: publicImage('unsplash-1552374196-c4e7ffc6e126.jpg'),
             description:
                 'Northern fury unleashed, frost in his beard and fire in his heart.',
         },
