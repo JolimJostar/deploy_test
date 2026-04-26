@@ -1,0 +1,5 @@
+@import 'tailwindcss' source(none);
+@plugin '@tailwindcss/forms';
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@import 'tw-animate-css';
